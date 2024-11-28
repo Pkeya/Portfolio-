@@ -1,0 +1,87 @@
+/* General Styles */
+
+@font-face {
+    font-family: myfirst;
+    src: url("WastedPersonalUseRegular-WyegG.ttf");
+  }
+  
+  @font-face {
+    font-family: mysecond;
+    src: url(Bauhaus\ 93\ Regular.ttf);
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .bg-pink {
+    background-color: #f06ba4;
+  }
+  
+  .navbar .dot {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  /* Navbar Link Styling */
+  .navbar-nav .nav-link {
+    color: #333;
+    font-size: 30px;
+    font-family: mysecond;
+  }
+  
+  /* Work Section */
+  .work-section {
+    background-color: #f06ba4;
+    color: #000;
+  }
+  
+  .work-item {
+    background-color: #f06ba4;
+    color: #000;
+    border-bottom: 1px solid #000;
+  }
+  
+  .work-number {
+    font-size: 34px;
+    font-weight: bold;
+    display: block;
+    font-family: mysecond;
+    text-align: left;
+  }
+  
+  .work-title {
+    font-size: 34px;
+    font-weight: bold;
+    font-family: mysecond;
+    text-align: end;
+  }
+  
+  /* Let's Talk Section */
+  .lets-talk-section {
+    background-color: #f06ba4;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    background-color: #f9f9f9;
+    color: #f06ba4;
+    padding: 30px 0;
+  }
+  
+  .contact-info {
+    list-style-type: none;
+  }
+  
+  .contact-info li {
+    font-size: 20px;
+  }
+  
+  

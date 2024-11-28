@@ -1,0 +1,91 @@
+/* General Styles */
+@font-face {
+    font-family: myfirst;
+    src: url("WastedPersonalUseRegular-WyegG.ttf");
+  }
+  
+  @font-face {
+    font-family: mysecond;
+    src: url(Bauhaus\ 93\ Regular.ttf);
+  }
+  
+  body {
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    
+    .bg-pink {
+      background-color: #f06ba4;
+    }
+    
+    /* Navbar */
+    .navbar .dot {
+      width: 50px;
+      height: 50px;
+      background-color: #333;
+      border-radius: 50%;
+      display: inline-block;
+    }
+  
+    .nav-item{
+      font-family: mysecond;
+      font-size: 30px;
+      color: #070707;
+    }
+  
+  
+  .navbar .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  /* Navbar Link Styling */
+  .navbar-nav .nav-link {
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #555;
+  }
+  
+  /* Campaign Section */
+  .campaign-section {
+    background-color: #fdfdfd;
+  }
+  
+  .campaign-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Next Project Section */
+  .next-project-section {
+    color: #fff;
+  }
+  
+  .next-project-title {
+    font-size: 50px;
+    font-family: myfirst;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    background-color: #f9f9f9;
+    color: #f06ba4;
+    padding: 30px 0;
+  }
+  
+  .contact-info {
+    list-style-type: none;
+  }
+  
+  .contact-info li {
+    font-size: 24px;
+    margin: 5px 0;
+  }
+  

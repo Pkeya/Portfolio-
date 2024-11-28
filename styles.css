@@ -1,0 +1,133 @@
+/* General Styles */
+@font-face {
+  font-family: myfirst;
+  src: url("WastedPersonalUseRegular-WyegG.ttf");
+}
+
+@font-face {
+  font-family: mysecond;
+  src: url(Bauhaus\ 93\ Regular.ttf);
+}
+
+body {
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .bg-pink {
+    background-color: #f06ba4;
+  }
+  
+  /* Navbar */
+  .navbar .dot {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .nav-item{
+    font-family: mysecond;
+    font-size: 30px;
+    color: #070707;
+  }
+  
+  /* Header Section */
+  .header-section {
+    padding: 50px;
+    background-color: #f06ba4;
+    position: relative;
+    color: white;
+  }
+  
+  .portfolio-title {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .portfolio-bg {
+    font-size: 6rem;
+    color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* About Section */
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    
+  }
+
+  .hello{
+    font-family: myfirst;
+    font-size: 85px;
+    color: #f06ba4;
+  }
+  
+  .hello-text {
+    font-size: 90px;
+    font-weight: bold;
+    color: #f06ba4;
+    font-family: myfirst;
+  }
+  
+  .intro-text {
+    font-size: 1rem;
+    margin: 20px 0;
+    color:black
+  }
+  
+  .profile-image {
+    width: 300px;
+    border-radius: 100px 100px 0px 0px;
+  }
+  
+  /* Featured Section */
+  .featured-section {
+    background-color:  #f9f9f9;
+    
+  }
+
+  .featured-title {
+    font-size: 50px;
+    color: #070707;
+    font-weight: bold;
+    background-color: #f06ba4;
+    font-family: mysecond;
+    text-align: left;
+    padding-left: 15px;
+  }
+  
+  .featured-item h3 {
+    margin-top: 20px;
+    color: #090909;
+    background-color: #f9f9f9;
+  }
+
+  .featured-item img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    background-color: #f9f9f9;
+    color: #f06ba4;
+    padding: 30px 0;
+  }
+  
+  .contact-info {
+    list-style-type: none;
+  }
+  
+  .contact-info li {
+    font-size: 24px;
+    margin: 5px 0;
+  }
+  
